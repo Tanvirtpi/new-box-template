@@ -1,0 +1,232 @@
+
+@media all and (min-width:992px){
+    .menu {
+        display:block !important;
+    }
+}
+
+@media all and (max-width:991px){
+    .logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu-bar{
+        display: block;
+    }
+
+    .menu {
+        width: 100%;
+        display:none;
+    }
+
+    .menu-bar a {
+        font-size: 30px;
+        /* border: 1px solid #D3D3D3; */
+        padding: 7px 10px;
+        line-height: 35px;
+        color: var(--color1);
+        /* background: var(--color7); */
+        border-radius: 10px;
+        display: block;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu-area {
+        position: absolute;
+        width: 80%;
+        background: rgb(0, 110, 141);
+        left: 0;
+        right: 0;
+        margin: auto;
+        z-index: 999;
+        border-radius: 15px;
+        margin-top: 20px;
+    }
+
+    .single-services {
+        margin-bottom: 30px;
+    }
+    .about-content {
+        flex-direction: column;
+    }
+    .about-left {
+        margin-bottom: 30px;
+    }
+    .about-right {
+        width: 100%;
+        transform: none;
+    }
+    .about-us-area.section-padding {
+        padding:0;
+    }
+    .project-right.filter_tab {
+        margin-bottom: 20px;
+        position: relative;
+        z-index: 999;
+    }
+
+    .project-right ul {
+     padding-left: 0px; 
+    }
+}
+
+
+
+@media all and (max-width:767px){
+    .add-left h3 {
+        font-size: 20px;
+    }
+}
+
+
+@media all and (max-width:650px){
+    .box {
+        width: 300px;
+        padding: 15px;
+    }
+    .box {
+        background: inherit;
+        width: inherit;
+        padding: inherit;
+        border-radius: inherit;
+        border: inherit;
+        box-shadow: inherit;
+    }
+
+    .res {
+        background: var(--color5);
+        width: 361px;
+        padding: 25px;
+        border-radius: 4px;
+        border: 1px solid var(--neutral-white, #FFF);
+        box-shadow: 0px 4px 6px -2px rgba(17, 24, 39, 0.05), 0px 12px 16px -4px rgba(17, 24, 39, 0.10);
+        margin-bottom: 30px;
+    }
+
+   .box2 {
+        position: inherit;
+        max-width: inherit;
+        height: inherit;
+        right: inherit;
+        top: inherit;
+        background: var(--color5);
+        width: 361px;
+        padding: 25px;
+        border-radius: 4px;
+        border: 1px solid var(--neutral-white, #FFF);
+        box-shadow: 0px 4px 6px -2px rgba(17, 24, 39, 0.05), 0px 12px 16px -4px rgba(17, 24, 39, 0.10);
+        margin-top: 20px;
+    }
+
+    .box4 {
+        position: inherit;
+        width: inherit;
+        height: inherit;
+        right: inherit;
+        top: inherit;
+        padding-top: inherit;
+    }
+}
+
+@media all and (max-width:575px){
+    .banner-headding h1 {
+        width: 300px;
+        margin: auto;
+        font-size: 40px ;
+    }
+    .stats-right-area h1{
+        font-size: 45px;
+    }
+    .stats-right-area {
+        margin: 60px 0;
+    }
+
+    .add-left p {
+        font-size: 16px;
+    }
+
+
+    .project-curocel-item1.all.mix {
+         flex-direction: column;
+    }
+
+    .project1 img {
+        width: 100%;
+    }
+    .project-text {
+         max-width: 100%;
+    }
+}
+
+@media all and (max-width:450px){
+    .add-left h3 {
+       max-width: 230px;
+    }
+    .form-text {
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    select {
+        margin-right: 0;
+    }
+    input[type="text"] {
+        margin-right: 0px; 
+    }
+    textarea {
+        width: 100%;
+    }
+
+    .box h1 {
+        font-size: 40px;
+    }
+    .box p {
+        font-size: 16px;
+        padding-left: 11px;
+        border-left: 3px solid var(--color3);
+        margin-left: 9px;
+    }
+
+    .box2 {
+        width: 100%;
+    }
+    .res {
+        width: 100%;
+    }
+
+
+
+
+    .banner-box p {
+        font-size: 16px;
+        color: var(--color5);
+        width: 100%;
+        margin: auto;
+    }
+
+
+
+    .banner-box {
+        width: 60%;
+        height: 125px;
+    }
+
+
+    .owl-nav {
+        width: 150%;
+    }
+    .owl-theme .owl-dots, .owl-theme .owl-nav {
+        text-align: right;
+    }
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+        width: 20%;
+    }
+}
+
+
+
